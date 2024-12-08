@@ -21,10 +21,10 @@ const Navbar = () => {
         </button>
       </div>
       <div className={`${isOpen ? 'block' : 'hidden'} md:flex flex-col md:flex-row gap-4 md:gap-8`}>
-        <h1 className="text-xl md:text-2xl text-white"><Link to='/'>Home</Link></h1>
-        <h1 className="text-xl md:text-2xl text-white"><Link to='/about'>About</Link></h1>
-        <h1 className="text-xl md:text-2xl text-white"><Link to='/projects'>Projects</Link></h1>
-        <h1 className="text-xl md:text-2xl text-white"><Link to='/contacts'>Contacts</Link></h1>
+        <h1 className="text-xl md:text-xl text-white"><Link to='/'>Home</Link></h1>
+        <h1 className="text-xl md:text-xl text-white"><Link to='/about'>About</Link></h1>
+        <h1 className="text-xl md:text-xl text-white"><Link to='/projects'>Projects</Link></h1>
+        <h1 className="text-xl md:text-xl text-white"><Link to='/contacts'>Contacts</Link></h1>
       </div>
     </div>
   );
